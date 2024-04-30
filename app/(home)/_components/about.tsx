@@ -20,14 +20,14 @@ export const About = () => {
                 &nbsp;
                 {data.heading}
             </SectionHeading>
-            <div className="flex flex-col xl:flex-row xl:gap-12 xl:px-12 items-center xl:items-start justify-center space-y-10 xl:space-y-0">
+            <div className="flex flex-col xl:flex-row xl:gap-12 xl:px-12 items-center xl:items-start justify-center space-y-10 xl:space-y-0 mx-6 lg:mx-0">
                 <div className="xl:text-start">
                     {/* Adjective Title */}
-                    <SectionHeading className={"text-4xl"}>
+                    <SectionHeading className={"text-3xl"}>
                         {data.subTitle}
                     </SectionHeading>
                     {/* Main Title */}
-                    <SectionHeading className="text-6xl">
+                    <SectionHeading className="text-4xl lg:text-6xl">
                         <p dangerouslySetInnerHTML={{ __html: data.title }} />
                     </SectionHeading>
                     <Separator className="bg-neutral-500 mt-4" />
@@ -46,7 +46,7 @@ export const About = () => {
                     height={1800}
                     src={data.image}
                     alt="Thar-01"
-                    className="rounded-sm max-w-lg"
+                    className="rounded-sm max-w-[95vw] md:max-w-xl"
                 />
             </div>
         </div>

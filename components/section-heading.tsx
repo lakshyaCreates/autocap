@@ -7,7 +7,12 @@ interface Props {
 
 export const SectionHeading = ({ children, className }: Props) => {
     return (
-        <h1 className={cn("text-7xl font-semibold font-kanit", className)}>
+        <h1
+            className={cn(
+                "text-6xl lg:text-7xl font-semibold font-kanit",
+                className
+            )}
+        >
             {children}
         </h1>
     );
