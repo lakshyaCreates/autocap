@@ -1,5 +1,5 @@
 import { About } from "./_components/about";
-import { BrandPromotion } from "./_components/brand-promotion";
+// import { BrandPromotion } from "./_components/brand-promotion";
 import { Hero } from "./_components/hero";
 
 export default function Home() {
