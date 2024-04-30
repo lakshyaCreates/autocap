@@ -8,6 +8,10 @@
         "description": "<p>Welcome to Autocap Car Detailing Studio, where we're dedicated to preserving the beauty and integrity of your vehicle. With a passion for perfection and a commitment to excellence, we provide a comprehensive range of detailing services designed to meet the unique needs of every car enthusiast.</p><p>As it's an extension of your personality and style that's why we're dedicated to providing the highest quality detailing services to keep your car looking its best, both inside and out.</p>"
     },
     "brandPromotion": {
-        "heading": "Our&nbsp;<span class='headingHighlight'>Brand</span>&nbsp;Promotion"
+        "heading": "Our&nbsp;<span class='headingHighlight'>Brand</span>&nbsp;Promotion",
+        "mobileHeading": "Our&nbsp;<span class='headingHighlight'>Brand</span>&nbsp; Promotion",
+        "videoId": "iRsE5VXzGIU",
+        "videoHeight": "640",
+        "videoWidth": "1280"
     }
 }
