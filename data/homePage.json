@@ -13,5 +13,8 @@
         "videoId": "iRsE5VXzGIU",
         "videoHeight": "640",
         "videoWidth": "1280"
+    },
+    "services": {
+        "heading": "Explore Our&nbsp;<span class='headingHighlight'>Services</span>&nbsp;"
     }
 }
