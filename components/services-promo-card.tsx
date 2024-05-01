@@ -28,7 +28,7 @@ export const ServicesPromoCard = () => {
                             </CardHeader>
                             <Separator />
                             <CardContent className="space-y-4 pt-3">
-                                <CardDescription className="text-neutral-100 font-kanit font-light text-base">
+                                <CardDescription className="text-neutral-200 font-kanit font-light text-base">
                                     {service.description}
                                 </CardDescription>
                                 <div className="max-w-lg">

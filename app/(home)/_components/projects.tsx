@@ -14,7 +14,10 @@ export const Projects = () => {
     return (
         <div className="space-y-12">
             <SectionHeading>
-                <span dangerouslySetInnerHTML={{ __html: data.heading }}></span>
+                <span
+                    dangerouslySetInnerHTML={{ __html: data.heading }}
+                    className="text-[3.5rem] lg:text-7xl"
+                />
             </SectionHeading>
             <div>
                 {posts.length > 0 ? (

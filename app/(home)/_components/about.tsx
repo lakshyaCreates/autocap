@@ -20,7 +20,7 @@ export const About = () => {
                 &nbsp;
                 {data.heading}
             </SectionHeading>
-            <div className="flex flex-col xl:flex-row xl:gap-12 xl:px-12 items-center xl:items-start justify-center space-y-10 xl:space-y-0 mx-6 lg:mx-0">
+            <div className="w-screen flex flex-col xl:flex-row xl:gap-12 xl:px-12 items-center xl:items-start justify-center space-y-8 xl:space-y-0 px-10 lg:mx-0">
                 <div className="xl:text-start">
                     {/* Adjective Title */}
                     <SectionHeading className={"text-3xl lg:text-5xl"}>

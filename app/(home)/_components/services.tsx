@@ -7,9 +7,12 @@ export const Services = () => {
     const data = homePage.services;
 
     return (
-        <div className="space-y-8">
+        <div className="space-y-8 text-start">
             <SectionHeading>
-                <span dangerouslySetInnerHTML={{ __html: data.heading }}></span>
+                <p
+                    dangerouslySetInnerHTML={{ __html: data.heading }}
+                    className="text-center"
+                />
             </SectionHeading>
             <ServicesPromoCard />
         </div>

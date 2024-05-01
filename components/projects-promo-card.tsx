@@ -35,11 +35,11 @@ export const ProjectsPromoCard = ({
                 alt="Thar-02"
                 className="rounded-t-lg"
             />
-            <CardHeader>
-                <CardTitle>
+            <CardHeader className="font-kanit">
+                <CardTitle className="text-3xl tracking-normal">
                     <Link href={slug}>{title}</Link>
                 </CardTitle>
-                <CardDescription>{description}</CardDescription>
+                <CardDescription className="">{description}</CardDescription>
                 <Separator />
                 <div className="flex justify-between w-full">
                     <Button variant={"link"} className="-ml-4" asChild>
