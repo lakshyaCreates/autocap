@@ -23,8 +23,10 @@ export const About = () => {
             <div className="flex flex-col xl:flex-row xl:gap-12 xl:px-12 items-center xl:items-start justify-center space-y-10 xl:space-y-0 mx-6 lg:mx-0">
                 <div className="xl:text-start">
                     {/* Adjective Title */}
-                    <SectionHeading className={"text-3xl"}>
-                        {data.subTitle}
+                    <SectionHeading className={"text-3xl lg:text-5xl"}>
+                        <span
+                            dangerouslySetInnerHTML={{ __html: data.subTitle }}
+                        />
                     </SectionHeading>
                     {/* Main Title */}
                     <SectionHeading className="text-4xl lg:text-6xl">
