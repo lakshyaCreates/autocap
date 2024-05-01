@@ -16,7 +16,7 @@ export const ServicesPromoCard = () => {
     const data = servicesPage.services.card;
 
     return (
-        <div className="flex flex-col space-y-6 items-center justify-center mx-4 md:mx-0lg:grid grid-cols-2 lg:gap-6 lg:space-y-0">
+        <div className="flex flex-col space-y-6 items-center justify-center mx-4 md:mx-0 lg:grid grid-cols-2 lg:gap-6 lg:space-y-0">
             {data.map((service) => (
                 <div className="max-w-sm md:max-w-lg" key={service.id}>
                     <BackgroundGradient>
