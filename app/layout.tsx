@@ -10,7 +10,7 @@ const kanit = Kanit({
     subsets: ["latin"],
     // display: "swap",
     variable: "--font-kanit",
-    weight: ["400", "500", "600", "700"],
+    weight: ["300", "400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {

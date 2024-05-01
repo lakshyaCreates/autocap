@@ -1,0 +1,34 @@
+{
+    "services": {
+        "card": [
+            {
+                "id": 1,
+                "title": "Exterior Detailing",
+                "pageUrl": "/services/exterior-detailing",
+                "description": "Our exterior detailing services are designed to enhance and protect your vehicle's paintwork, leaving it looking sleek, glossy, and showroom-ready. From thorough hand washing and clay bar treatments to paint correction and precision polishing, we take every measure to ensure that your car's exterior surfaces are free from imperfections and enhanced to their fullest potential.",
+                "videoUrl": "/detailing.mp4"
+            },
+            {
+                "id": 2,
+                "title": "Interior Detailing",
+                "pageUrl": "/services/interior-detailing",
+                "description": "Step into a world of luxury and comfort with our interior detailing services. We pay meticulous attention to every detail, from vacuuming and steam cleaning to leather conditioning and odor elimination, to restore your car's interior to a pristine, like-new condition. Whether you're driving solo or entertaining guests, you'll experience the ultimate in automotive refinement and sophistication.",
+                "videoUrl": "/detailing.mp4"
+            },
+            {
+                "id": 3,
+                "title": "Paint Protection",
+                "pageUrl": "/services/paint-protection",
+                "description": "Protect your investment and maintain the value of your vehicle with our advanced paint protection services. Our industry-leading ceramic coatings provide unparalleled durability and resistance to environmental contaminants, ensuring that your car's paintwork remains flawless and pristine for years to come. Say goodbye to swirl marks, scratches, and fading, and hello to long-lasting shine and protection.",
+                "videoUrl": "/detailing.mp4"
+            },
+            {
+                "id": 4,
+                "title": "Additional Services",
+                "pageUrl": "/services/additional-services",
+                "description": " In addition to our core detailing services, we also offer a range of supplementary treatments to address specific needs and preferences. From headlight restoration and engine bay detailing to windshield coating and wheel refinishing, we have the expertise and resources to elevate every aspect of your car's appearance and performance.",
+                "videoUrl": "/detailing.mp4"
+            }
+        ]
+    }
+}
