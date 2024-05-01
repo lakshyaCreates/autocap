@@ -16,5 +16,9 @@
     },
     "services": {
         "heading": "Explore Our&nbsp;<span class='headingHighlight'>Services</span>&nbsp;"
+    },
+    "projects": {
+        "heading": "Have a&nbsp;<span class='headingHighlight'>Look</span><br />at our <span class='headingHighlight'>Projects</span>",
+        "displayCount": 3
     }
 }
