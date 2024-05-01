@@ -20,7 +20,7 @@ export const About = () => {
                 &nbsp;
                 {data.heading}
             </SectionHeading>
-            <div className="w-screen xl:w-full flex flex-col xl:flex-row xl:gap-12 xl:px-12 items-center xl:items-start justify-center space-y-8  xl:space-y-0 px-10 lg:mx-0">
+            <div className="w-full xl:w-full flex flex-col xl:flex-row xl:gap-12 xl:px-12 items-center xl:items-start justify-center space-y-8 xl:space-y-0 px-10 lg:mx-0">
                 <div className="xl:text-start">
                     {/* Adjective Title */}
                     <SectionHeading className={"text-3xl lg:text-5xl"}>
@@ -40,6 +40,7 @@ export const About = () => {
                     />
                     <LinkBtn
                         text={"Read More"}
+                        link="/about"
                         className="-ml-1 mt-2 uppercase font-kanit font-medium px-0"
                     />
                 </div>
