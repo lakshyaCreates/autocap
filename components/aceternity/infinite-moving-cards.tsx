@@ -3,6 +3,15 @@
 import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
 import { LinkBtn } from "../link-btn";
+<<<<<<< HEAD
+=======
+import {
+    Tooltip,
+    TooltipContent,
+    TooltipProvider,
+    TooltipTrigger,
+} from "../ui/tooltip";
+>>>>>>> c22fd011d6c5fd93f25684f06bd70a54a2c76bd6
 import Link from "next/link";
 import { Button } from "../ui/button";
 import { ChevronsRight } from "lucide-react";
