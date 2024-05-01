@@ -1,3 +1,4 @@
+import { LinkBtn } from "@/components/link-btn";
 import { SectionHeading } from "@/components/section-heading";
 
 import homePage from "@/data/homePage.json";
@@ -17,7 +18,7 @@ export const BrandPromotion = () => {
                     className="block md:hidden"
                 />
             </SectionHeading>
-            <div className="aspect-video flex items-center justify-center">
+            <div className="aspect-video flex items-center justify-center pb-5">
                 <iframe
                     className="h-full w-[85dvw] lg:max-w-6xl rounded-lg"
                     src={`https://www.youtube.com/embed/${data.videoId}`}
@@ -28,6 +29,12 @@ export const BrandPromotion = () => {
                     allowFullScreen
                 ></iframe>
             </div>
+            <LinkBtn
+                text="Visit our youtube channel"
+                link="https://www.youtube.com/channel/UCDfHXkFZI5TmAotUHPyE3ZA"
+                blank
+                className="font-kanit font-medium uppercase"
+            />
         </div>
     );
 };

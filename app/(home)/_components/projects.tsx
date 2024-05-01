@@ -3,6 +3,7 @@ import homePage from "@/data/homePage.json";
 import { projectPosts } from "#site/content";
 import { formatDate, sortProjectPosts } from "@/lib/utils";
 import { ProjectsPromoCard } from "@/components/projects-promo-card";
+import { LinkBtn } from "@/components/link-btn";
 
 export const Projects = () => {
     const sortedPosts = sortProjectPosts(
@@ -19,7 +20,7 @@ export const Projects = () => {
                     className="text-[3.5rem] lg:text-7xl"
                 />
             </SectionHeading>
-            <div>
+            <div className="pb-4">
                 {posts.length > 0 ? (
                     <ul className="flex px-8 md:px-0 flex-col md:grid md:grid-cols-2 lg:grid-cols-3 space-y-10 md:space-y-0 md:gap-10 max-w-6xl">
                         {posts.map((post, index) => {
@@ -47,6 +48,11 @@ export const Projects = () => {
                     <p>Nothing to see here!</p>
                 )}
             </div>
+            <LinkBtn
+                text="Explore all of our projects"
+                className="font-kanit font-medium uppercase"
+                link="/projects"
+            />
         </div>
     );
 };

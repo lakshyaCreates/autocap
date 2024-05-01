@@ -15,10 +15,55 @@
         "videoWidth": "1280"
     },
     "services": {
-        "heading": "Explore Our&nbsp;<span class='headingHighlight'>Services</span>&nbsp;"
+        "heading": "Explore Our&nbsp;<span class='headingHighlight'>Services</span>"
     },
     "projects": {
         "heading": "Have a&nbsp;<span class='headingHighlight'>Look</span><br />at our <span class='headingHighlight'>Projects</span>",
         "displayCount": 3
+    },
+    "testimonials": {
+        "heading": "What&nbsp;<span class='headingHighlight'>People</span>&nbsp;Say About Us",
+        "cards": [
+            {
+                "id": 1,
+                "review": "I had my car ceramic coated from here. They did a really good work, up to the mark. Got some accessories too from here.",
+                "author": "Prashant Gabu",
+                "url": "https://maps.app.goo.gl/TuZw1wNr183wWD3K9"
+            },
+            {
+                "id": 2,
+                "review": "Excellent place for our Car's grooming and care. <br />#OneStop Solution for Cars!",
+                "author": "Bhumi Sharma",
+                "url": "https://maps.app.goo.gl/9fwyvMGVkeYFFsf97"
+            },
+            {
+                "id": 3,
+                "review": "It gives best service in Naroda area and car was totally completely washed and cleaned ,they provide great hospitality also I definitely visit again & must visit once time & experience service 😍...",
+                "author": "Patel Maulik",
+                "url": "https://maps.app.goo.gl/BhmRQVLRBhVTYzyu9"
+            },
+            {
+                "id": 4,
+                "review": "Excellent & Best service in Ahmedabad for car coating. Best car care advice. Best insurance rates & guidance. Must visit. Excellent ambience and customer service.",
+                "author": "Kalpesh Parmar",
+                "url": "https://maps.app.goo.gl/EAL2rCVfmKDroM6e6"
+            },
+            {
+                "id": 5,
+                "review": "It gives best service in Nikol area  and  car was totally completely washed  and cleaned 🔥😍,they  provide great  hospitality also and  now my car looks amazing 😍👀 …",
+                "author": "Kevin Gohil",
+                "url": "https://maps.app.goo.gl/KZTzLozn2fHV6PvY9"
+            },
+            {
+                "id": 6,
+                "review": "I appreciate Autocap car detailing studio. <br />Nice service and recommend for best car wash in Ahmedabad.",
+                "author": "Aman Singh",
+                "url": "https://maps.app.goo.gl/1QXmc8c6SbTKEhaV7"
+            }
+        ]
+    },
+    "contact": {
+        "heading": "Book a <span class='headingHighlight'>Call</span> from Us <span class='headingHighlight'>Today</span>",
+        "description": "Ready to experience the Autocap difference for yourself? Contact us today to schedule your appointment and treat your car to the ultimate detailing experience. Whether you're preparing for a special event, restoring a classic car, or simply maintaining your daily driver from a quick touch-up to a complete overhaul, we're here to help you achieve automotive perfection."
     }
 }
