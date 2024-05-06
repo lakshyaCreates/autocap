@@ -39,6 +39,7 @@ export const NavItems = () => {
 const MobileNav = () => {
     const isOpen = useMobileNavStore((state: any) => state.isOpen);
     const open = useMobileNavStore((state: any) => state.open);
+    const close = useMobileNavStore((state: any) => state.close);
 
     return (
         <Sheet open={isOpen}>
@@ -54,6 +55,14 @@ const MobileNav = () => {
                         <NavLinks />
                     </ul>
                 </div>
+                <SheetClose onClick={close}>
+                    <Button
+                        variant="ghost"
+                        className="absolute top-5 right-6 m-4 py-2 px-2"
+                    >
+                        <X className="w-8 h-8" />
+                    </Button>
+                </SheetClose>
             </SheetContent>
         </Sheet>
     );
