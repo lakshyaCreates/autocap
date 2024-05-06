@@ -4,6 +4,7 @@ import { BrandPromotion } from "./_components/brand-promotion";
 import { Services } from "./_components/services";
 import { Projects } from "./_components/projects";
 import { Testimonials } from "./_components/testimonials";
+import { Contact } from "./_components/contact";
 
 export default function Home() {
     return (
@@ -15,6 +16,7 @@ export default function Home() {
                 <Services />
                 <Projects />
                 <Testimonials />
+                <Contact />
             </div>
         </div>
     );

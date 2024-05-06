@@ -1,3 +1,5 @@
+"use client";
+import { ContactFormFields } from "./contact-form-fields";
 import {
     Card,
     CardContent,
@@ -10,7 +12,7 @@ import { Separator } from "./ui/separator";
 
 export const ContactForm = () => {
     return (
-        <div className="bg-neutral-800 max-w-lg w-full font-kanit">
+        <div className="max-w-lg w-full font-kanit">
             <Card>
                 <CardHeader>
                     <CardTitle className="text-3xl font-medium">
@@ -22,8 +24,9 @@ export const ContactForm = () => {
                     </CardDescription>
                 </CardHeader>
                 <Separator />
-                <CardContent></CardContent>
-                <CardFooter></CardFooter>
+                <CardContent className="py-6">
+                    <ContactFormFields />
+                </CardContent>
             </Card>
         </div>
     );

@@ -4,6 +4,7 @@ import "./globals.css";
 import { Kanit } from "next/font/google";
 
 import { ThemeProvider } from "@/components/theme-provider";
+import { Toaster } from "sonner";
 
 import { Header } from "@/components/header";
 const kanit = Kanit({
@@ -37,6 +38,7 @@ export default function RootLayout({
                             {children}
                         </div>
                     </main>
+                    <Toaster />
                     {/* <Footer /> */}
                 </ThemeProvider>
             </body>
