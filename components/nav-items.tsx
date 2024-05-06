@@ -12,6 +12,7 @@ import {
 import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
 import { Separator } from "./ui/separator";
+import { useMobileNavStore } from "@/store/mobileNav";
 
 const navItems = [
     { title: "Home", href: "/" },
@@ -36,9 +37,12 @@ export const NavItems = () => {
 };
 
 const MobileNav = () => {
+    const isOpen = useMobileNavStore((state: any) => state.isOpen);
+    const open = useMobileNavStore((state: any) => state.open);
+
     return (
-        <Sheet>
-            <SheetTrigger>
+        <Sheet open={isOpen}>
+            <SheetTrigger onClick={open}>
                 <Menu className="w-8 h-8 mt-4" />
             </SheetTrigger>
             <SheetContent
@@ -57,11 +61,14 @@ const MobileNav = () => {
 
 const NavLinks = () => {
     const pathname = usePathname();
+    const close = useMobileNavStore((state: any) => state.close);
+
     return (
         <>
             {navItems.map((item, index) => (
                 <Link key={index} href={item.href}>
                     <li
+                        onClick={close}
                         className={
                             item.href === pathname
                                 ? "text-primary"
