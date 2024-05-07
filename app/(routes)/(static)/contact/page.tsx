@@ -1,4 +1,9 @@
 import { Contact } from "@/app/(home)/_components/contact";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Contact",
+};
 
 export default function ContactPage() {
     return (

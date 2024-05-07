@@ -23,6 +23,11 @@ export async function generateStaticParams(): Promise<
     }));
 }
 
+import { Metadata } from "next";
+export const metadata: Metadata = {
+    title: "Blog",
+};
+
 export default async function PostPage({ params }: PostPageProps) {
     const post = await getPostFromParams(params);
 
