@@ -1,3 +1,5 @@
+import { UnderDevelopment } from "@/components/under-development";
+
 export default function ServicesPage() {
-    return <div>Services Page</div>;
+    return <UnderDevelopment />;
 }

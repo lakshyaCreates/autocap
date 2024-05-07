@@ -44,7 +44,7 @@ export const ProjectsPromoCard = ({
                 <div className="flex justify-between w-full">
                     <Button variant={"link"} className="-ml-4" asChild>
                         <Link href={slug}>
-                            <ChevronsRight className="h-5 w-5 mt-0.5" />
+                            <ChevronsRight className="h-5 w-5" />
                             <span>Explore</span>
                         </Link>
                     </Button>
