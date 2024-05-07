@@ -7,6 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "sonner";
 
 import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
 const kanit = Kanit({
     subsets: ["latin"],
     // display: "swap",
@@ -38,6 +39,7 @@ export default function RootLayout({
                             {children}
                         </div>
                     </main>
+                    <Footer />
                     <Toaster />
                     {/* <Footer /> */}
                 </ThemeProvider>
