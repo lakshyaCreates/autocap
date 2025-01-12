@@ -27,7 +27,7 @@ export const Contact = () => {
                             <PhoneCallIcon className="w-5 h-5 mt-0.5 text-primary" />
                             <p>
                                 <span className="text-neutral-300">(+91)</span>
-                                &nbsp;704 303 8000
+                                &nbsp;951 256 6331
                             </p>
                         </div>
                         <div className="flex flex-row gap-2">
